@@ -10,9 +10,9 @@
             <relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.edu.infnet</groupId>
-	<artifactId>Spring-MVC-Base</artifactId>
+	<artifactId>CMStore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring-MVC-Base</name>
+	<name>CMStore</name>
 	<description>Projeto Spring MVC</description>
 	<properties>
             <java.version>8</java.version>
