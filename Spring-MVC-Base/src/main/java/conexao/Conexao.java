@@ -12,7 +12,7 @@ public class Conexao {
         System.out.println("Conectando ao banco...");
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost/infnet", "root", "lpmaia");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost/cmstore", "root", "root");
         } catch (ClassNotFoundException e) {
             System.out.println("O driver nao foi encontrado");
         } catch (SQLException e) {
